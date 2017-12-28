@@ -14,12 +14,11 @@ This project generates a certificate. It runs on Vert.x, and is built on the Gra
 
 ## Setting up the project
 
+* ***Fork*** ![](https://camo.githubusercontent.com/ba881041f4d7c96895e8466eece0c43317919f56/68747470733a2f2f696d6167652e6962622e636f2f667953745a6d2f666f726b2e706e67) this git repository and ***clone*** the fork to a local directory or download [.zip](https://github.com/jboss-outreach/certifier/archive/master.zip) file.
+* If you prefer using an IDE, install [Intellij IDEA](https://www.jetbrains.com/idea) or another preferred IDE that supports Java Code.
 
-* ***Fork*** this git repository and ***clone*** the fork to a local directory or download [.zip](https://github.com/jboss-outreach/certifier/archive/master.zip) file.
-* If you prefer using an IDE, install [Intellij IDEA](https://www.jetbrains.com/idea) or another preferred IDE
 
-
-###### If using an IDE like Intellij IDEA,
+###### If using an IDE like Intellij IDEA, Eclipse or any that can run Java Code :
 1. [Download JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (JDK 8, as 9 won't work)
 2. [Configure Intellij project defaults](https://www.jetbrains.com/help/idea/defining-a-jdk-and-a-mobile-sdk-in-intellij-idea.html), project structure, to set the project SDK to java version 1.8 
     ```configure --> Project Defaults --> Project Structure --> Select JDK 1.8 location```
@@ -29,6 +28,7 @@ This project generates a certificate. It runs on Vert.x, and is built on the Gra
 6. Right click on the vertx at the top of the code and use the suggested help from intellij to link it to the project
 7. Click **Run App.main()**
 
+
 ###### If using an IDE like Eclipse
 1. [Download JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2. [Download this Repository](https://codeload.github.com/jboss-outreach/certifier/zip/master)
@@ -36,6 +36,8 @@ This project generates a certificate. It runs on Vert.x, and is built on the Gra
 4. In Eclipse in File Tab select Import then select Gradle
 5. Select Root of the Project
 6. Click **Run Button** 
+
+
 
 
 
@@ -63,9 +65,26 @@ If you are stuck anywhere or need any help, you can refer the following:
 
 ## Contributing to the project
 
+
 1. Make your intended changes on your locally cloned repository.
 2. *Commit* the changes and *push* the commit to your forked repository on GitHub.
 3. Ensure the changes on the commit pushed to your GitHub fork are right.
 4. Create a *pull request* requesting to merge the commits on your fork to this repository.
 5. Write a concise and convincing pull request message explaining the purpose of your commits.
 6. Try including any other Relevant Details as may be necessary. 
+
+```Step 1: Fork this project.```: 
+Go to the top right of the project page and click on "Fork". A clone of this repo will be created on your GitHub account.
+
+```Step 2: Code your changes```: 
+Create a new branch, and create/edit files as per your coding requirements. Ensure that your code is clean and efficient, and avoid redundancies. It is also advised to follow naming conventions as and where specified. Also make sure that your code is your own, and is not closed-source or stolen.
+
+```Step 3: Commit and send a Pull Request (PR)```: 
+Once you are done coding the changes, commit the files and create a PR. Click on "Compare across forks" when creating the PR, and select the master branch of this repo as the base. Set the head to your branch on your fork. Click on the button "Create Pull Request". Give your PR a meaningful title and a brief message explaining the purpose of your commits.
+
+```Step 4: Ensuring code quality```: 
+Once a PR has been created, check if it can be merged without any issues. If there are any issues, repeat from ```Step 2```. Wait for a reviewer to cross check your changes, and then merge your changes.
+
+You can have a look this [**web page**](https://egghead.io/lessons/javascript-how-to-fork-and-clone-a-github-repository) to know how to Clone, Fork and edit the project on a local respository. 
+Keep contributing!
+
